@@ -134,13 +134,12 @@ Clients requirement changes and now we need
 
 The below changes needs to be done in Java8.
 
-package Journey;
 
-import java.util.ArrayList;
+    import java.util.ArrayList;
 
-import java.util.List;
+    import java.util.List;
 
-public class SecondAttempt {
+    public class SecondAttempt {
 
     public List<Fruit> GetFruitsWhichAreGreen() {
 
@@ -194,7 +193,83 @@ public class SecondAttempt {
         }
     }
 
+#Third Attempt
 
+Using Anonymous class
+    
+    import java.util.ArrayList;
+    import java.util.List;
+    
+    public class ThirdAttempt {
+    
+        public List<Fruit> getGreenFruits() {
+    
+            List<Fruit> lstFruits = FruitBuilder.generateFruits();
+            List<Fruit> result = filter(lstFruits, new Predicate() {
+                @Override
+                public boolean test(Fruit fruit) {
+                    return "green".equals(fruit.getColor());
+                }
+            });
+            return result;
+        }
+    
+        public List<Fruit> getFruitsGreaterThan10() {
+    
+            List<Fruit> lstFruits = FruitBuilder.generateFruits();
+            List<Fruit> response = filter(lstFruits, new Predicate(){
+                @Override
+                public boolean test(Fruit fruit) {
+                    return fruit.getWeight() > 10;
+                }
+            });
+            return response;
+        }
+    
+        public static List<Fruit> filter(List<Fruit> lstFruits, Predicate p) {
+            List<Fruit> result = new ArrayList<>();
+            lstFruits.forEach(fruit -> {
+                if (p.test(fruit)) {
+                    result.add(fruit);
+                }
+            });
+            return result;
+        }
+    }
+    
+    interface Predicate {
+        boolean test(Fruit fruit);
+    }
+
+    import org.junit.Before;
+    import org.junit.Test;
+    
+    import static junit.framework.TestCase.assertTrue;
+    import static org.junit.Assert.assertEquals;
+    
+    public class ThirdAttemptTest {
+    
+        private ThirdAttempt ta;
+    
+        @Before
+        public void setup() {
+            ta = new ThirdAttempt();
+        }
+    
+        @Test
+        public void getGreenFruits() {
+            ta.getGreenFruits().forEach(fruit -> {
+                assertEquals(fruit.getColor(), "green");
+            });
+        }
+    
+        @Test
+        public void getFruitsGreaterThan10() {
+            ta.getFruitsGreaterThan10().forEach(fruit -> {
+                assertTrue(fruit.getWeight() > 10);
+            });
+        }
+    }
 
 
 
