@@ -19,31 +19,10 @@ Lambda expression is composed of
     
     Basic Syntax is 
     {parameters} -> { statements }
-
-Example
-
-Lambda expressions are anonymous functions, basically methods declared without names but can be passed
-as arguments to a method.
-
-What is Lambda Expression
-
-1. It is an Anonymous function
-2. It is a function which means it is not associated to a class and can be passed around 
-3. It acts like a normal method, which means it has got a
-    1. Body 
-    2. Return type
-    3. list of parameters.
-    4. list of exceptions.
     
-Lambda expression is composed of 
-    parameters, an arrow and a body.
-    
-    
-    Basic Syntax is 
-    {parameters} -> { statements }
-    
-
 Example : Fruit class which will have name, color and weight
+
+Requirement is to filter green fruits.
 
 public class Fruit {
     
@@ -106,7 +85,8 @@ public class FruitBuilder {
     }
 }
 
-Step 3 : we require only green fruits. 
+Step 3 : we require only green fruits. Possible solution before Java 8
+was as below.
 
 import java.util.ArrayList;
 
@@ -148,7 +128,75 @@ public class JourneyTest {
     }
 }
 
+Clients requirement changes and now we need 
+1. green fruit
+2. fruit whose weight is less than 20.
 
-Below is an example where we code using before java 8.
+The below changes needs to be done in Java8.
+
+package Journey;
+
+import java.util.ArrayList;
+
+import java.util.List;
+
+public class SecondAttempt {
+
+    public List<Fruit> GetFruitsWhichAreGreen() {
+
+        List<Fruit> lstFruits = FruitBuilder.generateFruits();
+        List<Fruit> resultOfGreenFruit = filter(lstFruits, new FruitPredicateWithGreenColor());
+        return resultOfGreenFruit;
+    }
+
+    public List<Fruit> getFruitsGreaterThan10(){
+
+        List<Fruit> lstFruits = FruitBuilder.generateFruits();
+        List<Fruit> resultOfFruitGreaterThan10 = filter(lstFruits, new FruitPredicateWhereWeightIsGreaterThan10());
+        return resultOfFruitGreaterThan10;
+    }
+
+    public static List<Fruit> filter(List<Fruit> lstFruits, FruitPredicate p) {
+
+        List<Fruit> result = new ArrayList<>();
+        lstFruits.forEach((f) -> {
+            if (p.test(f)) {
+                result.add(f);
+            }
+        });
+        return result;
+    }
+}
+
+
+    interface FruitPredicate {
+        boolean test(Fruit fruit);
+    }
+    
+    /**
+     * this will filter out fruits where color is green
+     */
+    class FruitPredicateWithGreenColor implements FruitPredicate {
+        @Override
+        public boolean test(Fruit fruit) {
+            return fruit.getColor().equals("green");
+        }
+    }
+    
+    /**
+     * This will filter fruits whose weight is greater than 10
+     */
+    class FruitPredicateWhereWeightIsGreaterThan10 implements FruitPredicate {
+    
+        @Override
+        public boolean test(Fruit fruit) {
+            return fruit.getWeight() > 10;
+        }
+    }
+
+
+
+
+
 
 

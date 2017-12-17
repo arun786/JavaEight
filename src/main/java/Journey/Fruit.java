@@ -4,9 +4,9 @@ public class Fruit {
 
     private String name;
     private String color;
-    private String weight;
+    private int weight;
 
-    public Fruit(String name, String color, String weight) {
+    public Fruit(String name, String color, int weight) {
         this.name = name;
         this.color = color;
         this.weight = weight;
@@ -28,11 +28,11 @@ public class Fruit {
         this.color = color;
     }
 
-    public String getWeight() {
+    public int getWeight() {
         return weight;
     }
 
-    public void setWeight(String weight) {
+    public void setWeight(int weight) {
         this.weight = weight;
     }
 }
