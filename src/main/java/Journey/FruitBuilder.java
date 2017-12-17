@@ -5,7 +5,7 @@ import java.util.List;
 
 public class FruitBuilder {
 
-    private List<Fruit> lst = new ArrayList<Fruit>();
+    private static List<Fruit> lst = new ArrayList<Fruit>();
 
     public FruitBuilder() {
         Fruit f1 = new Fruit("Apple", "Green", "10");
@@ -16,7 +16,7 @@ public class FruitBuilder {
         lst.add(f3);
     }
 
-    public List<Fruit> generateFruits() {
+    public static List<Fruit> generateFruits() {
         return lst;
     }
 }

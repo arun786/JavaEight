@@ -1,6 +1,7 @@
 package Journey;
 
 public class Fruit {
+
     private String name;
     private String color;
     private String weight;
