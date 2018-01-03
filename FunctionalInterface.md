@@ -63,3 +63,85 @@ Example of Functional Interface
                 static void m3() {
                 }
             }
+            
+With respect to Inheritence
+
+    * Example 1, Valid Functional Interface
+    Parent contains 1 abstract method and child none.
+    @FunctionalInterface
+    public interface Interface1 {
+        void m1();
+    
+        default void m2() {
+    
+        }
+    
+        static void m3() {
+    
+        }
+    }
+    
+    @FunctionalInterface
+    interface i1 extends Interface1{
+        
+    }
+    
+    
+    * Example 2, Valid Functional Interface
+     Parent contains 1 abstract method and child the same.
+        @FunctionalInterface
+        public interface Interface1 {
+            void m1();
+        
+            default void m2() {
+        
+            }
+        
+            static void m3() {
+        
+            }
+        }
+        
+        @FunctionalInterface
+        interface i1 extends Interface1{
+            void m1();
+        }
+        
+    * Example 3, InValid Functional Interface
+     Parent contains 1 abstract method and child a different abstract method.
+            @FunctionalInterface
+            public interface Interface1 {
+                void m1();
+            
+                default void m2() {
+            
+                }
+            
+                static void m3() {
+            
+                }
+            }
+            
+            @FunctionalInterface
+            interface i1 extends Interface1{
+                void m2();
+            }
+            
+    * Example 4, Valid Functional Interface
+     Parent contains 1 abstract method and child a different abstract method.
+            @FunctionalInterface
+            public interface Interface1 {
+                void m1();
+            
+                default void m2() {
+            
+                }
+            
+                static void m3() {
+            
+                }
+            }
+            
+            interface i1 extends Interface1{
+                void m2();
+            }
