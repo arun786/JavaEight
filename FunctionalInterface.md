@@ -146,7 +146,7 @@ With respect to Inheritence
                 void m2();
             }
 
-** How to call a Lambda Expression using Functional Interface
+##  How to call a Lambda Expression using Functional Interface
 
     public class BasicOfLambda {
         public static void main(String[] args) {
@@ -161,3 +161,16 @@ With respect to Inheritence
     }
     
     o/p will be "Hello World"
+    
+    
+    @FunctionalInterface
+    interface inter2 {
+        int add(int a, int b);
+    }
+    
+    We can use the below to call the Functional Interface
+    
+    inter2 i2 = (a,b) -> a+b;
+    int sum = i2.add(10,20);
+    
+    Value of Sum will be 30
