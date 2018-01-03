@@ -20,3 +20,46 @@ If an interface is declared as FunctionalInterface using @FunctionalInterface an
 no abstract method or more than one is declared, it will give a compiler error
 
 Unexpected @FunctionalInterface annotation, multiple non overiding methods.
+
+Example of Functional Interface
+
+    * Example 1 : Valid Functional Interface
+
+    @FunctionalInterface
+    public interface Interface1 {
+        void m1();
+    }
+    
+    * Example 2 : Valid Functional Interface
+    
+    @FunctionalInterface
+    public interface Interface1 {
+    
+        void m1();
+        default void m2() {
+        }
+        static void m3() {
+        }
+    }
+    
+    * Example 3 : Invalid functional Interface, no abstract method defined
+    
+    @FunctionalInterface
+    public interface Interface1 {
+            default void m2() {
+            }
+            static void m3() {
+            }
+        }
+        
+    * Example 4 : Invalid functional Interface, more than one abstract method defined
+        
+        @FunctionalInterface
+        public interface Interface1 {
+                void m1();
+                void m4();
+                default void m2() {
+                }
+                static void m3() {
+                }
+            }
