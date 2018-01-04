@@ -9,9 +9,13 @@ public class BasicOfLambda {
         int c = i1.add(10, 20);
         System.out.println(c);
 
-        inter3 i2 = (s) -> s.length();
+        inter3 i2 = s -> s.length();
         int length = i2.getLength("arun");
         System.out.println(length);
+
+        inter4 i3 = x -> x*x;
+        int square = i3.squareIt(10);
+        System.out.println(square);
     }
 }
 
@@ -26,6 +30,11 @@ interface inter2 {
 }
 
 @FunctionalInterface
-interface inter3{
+interface inter3 {
     int getLength(String a);
+}
+
+@FunctionalInterface
+interface inter4 {
+    int squareIt(int x);
 }
