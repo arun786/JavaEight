@@ -20,6 +20,7 @@ Below example will give an idea of Instance Variables.
                     @Override
                     public void m1() {
                         System.out.println(this.x); //o/p will be 30
+                        System.out.println(VariablesInAnonymousClass.this.x); //O/p will be 20
                     }
                 };
                 i.m1();
