@@ -55,3 +55,11 @@ The below example of the above statement
                 System.out.println("This is red of an Interface...");
             }
         }
+
+## Interface can have main function
+
+    public interface InterfaceHavingMain {
+        static void main(String[] args) {
+            System.out.println("this is main method which is called from main function in an interface");
+        }
+    }
