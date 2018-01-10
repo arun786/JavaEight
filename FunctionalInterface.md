@@ -174,3 +174,22 @@ With respect to Inheritence
     int sum = i2.add(10,20);
     
     Value of Sum will be 30
+
+# Types of Functional Interface
+
+1. Predicate
+2. Consumer
+
+## Example of Predicate
+
+    public class UseOfPredicate {
+    
+        public static void main(String[] args) {
+            /**
+             * Predicate is a functional interface which returns boolean
+             */
+            Predicate<Integer> p = number -> number > 10;
+            System.out.println(p.test(13)); //Returns true
+            System.out.println(p.test(8)); //Returns false
+        }
+    }
