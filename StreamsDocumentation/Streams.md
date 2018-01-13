@@ -93,3 +93,68 @@
         }
     }
 
+### Use Of Map
+
+    package Streams;
+    
+    import java.util.List;
+    import java.util.stream.Collectors;
+    
+    public class BasicOfStreamAddToAMap {
+    
+        /**
+         * @param numbers
+         * @return double the numbers in a list and store it in a new List
+         */
+        public List<Integer> getDoubleOfNumber(List<Integer> numbers) {
+            List<Integer> doubleNumber = numbers.stream().map(number -> number * 2).collect(Collectors.toList());
+            return doubleNumber;
+        }
+    }
+    
+### Test 
+    package Streams;
+    
+    import org.junit.Before;
+    import org.junit.Test;
+    import org.junit.runner.RunWith;
+    import org.junit.runners.JUnit4;
+    
+    import java.util.ArrayList;
+    import java.util.List;
+    
+    import static org.junit.Assert.assertEquals;
+    
+    @RunWith(JUnit4.class)
+    public class BasicOfStreamAddToAMapTest {
+        private BasicOfStreamAddToAMap subject;
+        private List<Integer> numbers;
+    
+        @Before
+        public void setUp() {
+            subject = new BasicOfStreamAddToAMap();
+            numbers = listBuilder();
+        }
+    
+        @Test
+        public void getDoubleOfNumberTest() {
+            List<Integer> response = subject.getDoubleOfNumber(numbers);
+            for (int i = 0; i < numbers.size(); i++) {
+                /**
+                 * List maintains the insertion order
+                 */
+                Integer newNumber = numbers.get(i) * 2;
+                assertEquals(response.get(i), newNumber);
+            }
+        }
+    
+        private List<Integer> listBuilder() {
+            List<Integer> lst = new ArrayList<>();
+            for (int i = 0; i < 10; i++) {
+                int number = (int) (Math.random() * 100);
+                lst.add(number);
+            }
+            return lst;
+        }
+    }
+
