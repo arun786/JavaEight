@@ -1,5 +1,7 @@
 # Date API
 
+## LocalDate API
+
     package DateAndTimeAPI;
     
     import java.time.LocalDate;
@@ -20,5 +22,23 @@
             System.out.println(year); //Year of current year for the current date
     
             System.out.printf("%d-%d-%d", dayOfMonth, month, year);
+        }
+    }
+
+## LocalTime API
+
+    package DateAndTimeAPI;
+    
+    import java.time.LocalTime;
+    
+    public class LocalTimeAPI {
+        public static void main(String[] args) {
+            LocalTime localTime = LocalTime.now();
+            int h = localTime.getHour();
+            int m = localTime.getMinute();
+            int s = localTime.getSecond();
+            int n = localTime.getNano();
+    
+            System.out.printf("%d:%d:%d:%d", h, m, s, n);
         }
     }
