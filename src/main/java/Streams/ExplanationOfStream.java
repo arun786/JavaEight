@@ -18,9 +18,17 @@ public class ExplanationOfStream {
 
     /**
      * @param names
-     * @return This method converts names to upper case
+     * @return This method converts names to upper case, use of map
      */
     public List<String> convertToUpperCase(List<String> names) {
         return names.stream().map(name -> name.toUpperCase()).collect(Collectors.toList());
+    }
+
+    /**
+     * @param names
+     * @return this method gives the count of names which are less than 8 characters
+     */
+    public long getCountOfNamesLessThan8Characters(List<String> names) {
+        return names.stream().filter(name -> name.length() < 8).count();
     }
 }
