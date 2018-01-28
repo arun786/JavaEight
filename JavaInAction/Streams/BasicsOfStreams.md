@@ -29,3 +29,13 @@
         public static List<String> getNamesOfDishesWhereCalorieMoreThan300() {
            return menu.stream().filter(dish -> dish.getCalories() > 300).map(dish -> dish.getName()).collect(Collectors.toList());
         }
+        
+   ## use of Limit in streams
+   
+        /**
+        * @return list -> streams -> filter -> map -> limit -> collect to a list
+        */
+        public static List<String> get3DishesWhereCalorieMoreThan300() {
+           return menu.stream().filter(dish -> dish.getCalories() > 300).map(dish -> dish.getName()).limit(3)
+                   .collect(Collectors.toList());
+        }

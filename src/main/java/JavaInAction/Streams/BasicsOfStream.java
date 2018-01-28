@@ -62,8 +62,11 @@ public class BasicsOfStream {
         });
 
         List<String> namesOfDishesWhereCalorieMoreThan300 = getNamesOfDishesWhereCalorieMoreThan300();
-        namesOfDishesWhereCalorieMoreThan300.forEach(dish -> System.out.println(dish));
+        namesOfDishesWhereCalorieMoreThan300.forEach(dish -> System.out.print(dish + " "));
 
+        System.out.println();
+        namesOfDishesWhereCalorieMoreThan300 = get3DishesWhereCalorieMoreThan300();
+        namesOfDishesWhereCalorieMoreThan300.forEach(dish -> System.out.print(dish + " "));
     }
 
     public static List<Dish> menu = Arrays.asList(
@@ -88,5 +91,13 @@ public class BasicsOfStream {
      */
     public static List<String> getNamesOfDishesWhereCalorieMoreThan300() {
         return menu.stream().filter(dish -> dish.getCalories() > 300).map(dish -> dish.getName()).collect(Collectors.toList());
+    }
+
+    /**
+     * @return list -> streams -> filter -> map -> limit -> collect to a list
+     */
+    public static List<String> get3DishesWhereCalorieMoreThan300() {
+        return menu.stream().filter(dish -> dish.getCalories() > 300).map(dish -> dish.getName()).limit(3)
+                .collect(Collectors.toList());
     }
 }
