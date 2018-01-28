@@ -1,6 +1,6 @@
 # Basic Of Streams
 
-    public static List<Dish> menu = Arrays.asList(
+        public static List<Dish> menu = Arrays.asList(
                 new Dish("pork", false, 800, Dish.Type.MEAT),
                 new Dish("beef", false, 700, Dish.Type.MEAT),
                 new Dish("chicken", false, 400, Dish.Type.MEAT),
@@ -20,3 +20,12 @@
             return menu.stream().filter(d -> d.getCalories() < 300).collect(Collectors.toList());
         }
 
+
+   ## use of Map in Streams
+   
+        /**
+        * @return list -> stream -> filter -> map to names -> collect to a list
+        */
+        public static List<String> getNamesOfDishesWhereCalorieMoreThan300() {
+           return menu.stream().filter(dish -> dish.getCalories() > 300).map(dish -> dish.getName()).collect(Collectors.toList());
+        }
