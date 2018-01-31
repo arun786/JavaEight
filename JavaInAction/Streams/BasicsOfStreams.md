@@ -20,8 +20,13 @@
             return menu.stream().filter(d -> d.getCalories() < 300).collect(Collectors.toList());
         }
 
-
+   ## Filter 
+   
+   Filter takes a lambda to exclude certain number of elements from the list.
+    
    ## use of Map in Streams
+   
+   Map takes a lambda to transform an element into another one or to extract an information.
    
         /**
         * @return list -> stream -> filter -> map to names -> collect to a list
@@ -32,6 +37,9 @@
         
    ## use of Limit in streams
    
+   Limit truncates a stream to contain no more element than the one specified in the limit.
+   
+     
         /**
         * @return list -> streams -> filter -> map -> limit -> collect to a list
         */
@@ -39,3 +47,6 @@
            return menu.stream().filter(dish -> dish.getCalories() > 300).map(dish -> dish.getName()).limit(3)
                    .collect(Collectors.toList());
         }
+   ## Collect
+   
+   It converts a stream into another form, in the above case it is list.
