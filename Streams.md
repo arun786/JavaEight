@@ -158,3 +158,13 @@ Example of Stream
         List<String> word = Arrays.asList("apple", "banana");
         List<String> uniqueCharacters = word.stream().map(w -> w.split("")).flatMap(Arrays::stream).distinct().collect(Collectors.toList());
         System.out.println(uniqueCharacters);
+        
+## Double numbers present in a list
+
+        /**
+        * to double the numbers present in a list
+        */
+        
+        List<Integer> numbers = Arrays.asList(1, 4, 5, 8, 9);
+        List<Integer> doubleNumbers = numbers.stream().map(n -> n * 2).collect(Collectors.toList());
+        System.out.println(doubleNumbers);
