@@ -46,6 +46,15 @@ public class StreamMap {
 
         List<int[]> result = numbers1.stream().flatMap(n1 -> numbers2.stream().map(n2 -> new int[]{n1, n2})).collect(Collectors.toList());
         result.forEach(d -> System.out.print(Arrays.toString(d) + " "));
+        System.out.println();
+
+        /**
+         * if we have two Lists [1,3,4] and [2,5]
+         * we should get [2, 5, 6,15,8,20]
+         */
+
+        List<Integer> product = numbers1.stream().flatMap(n1 -> numbers2.stream().map(n2 -> n1* n2)).collect(Collectors.toList());
+        System.out.println(product);
     }
 
 
