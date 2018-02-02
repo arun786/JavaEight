@@ -13,5 +13,9 @@ public class StreamsDistinct {
 
         /*output will be
                 [10, 12, 13, 14, 35, 23, 45]*/
+
+
+        numbers.stream().distinct().forEach(System.out::println);
+
     }
 }
