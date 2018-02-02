@@ -1,5 +1,8 @@
 package JavaInAction.Streams;
 
+import Streams.Dish;
+import util.DishBuilder;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
@@ -12,7 +15,14 @@ public class StreamMap {
 
         Map<String, Integer> mapOfWord = words.stream().collect(Collectors.toMap(d -> d, d -> d.length()));
         System.out.println(mapOfWord);
+
+
+        List<Dish> dishes = DishBuilder.dishBuilder();
+        List<Integer> lengthOfDishName = dishes.stream().map(dish -> dish.getName()).map(String::length).collect(Collectors.toList());
+        System.out.println(lengthOfDishName);
     }
+
+
 }
 
 /*output will be

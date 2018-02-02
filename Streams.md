@@ -142,3 +142,9 @@ Example of Stream
         
         Map<String, Integer> mapOfWord = words.stream().collect(Collectors.toMap(d -> d, d -> d.length()));
         System.out.println(mapOfWord);
+        
+## Use Of Map on Map
+
+        List<Dish> dishes = DishBuilder.dishBuilder();
+        List<Integer> lengthOfDishName = dishes.stream().map(dish -> dish.getName()).map(String::length).collect(Collectors.toList());
+        System.out.println(lengthOfDishName);
