@@ -124,7 +124,12 @@ Example of Stream
             
             
             
-## use Of Limit
+## Use Of Limit
 
             List<Integer> numbers = Arrays.asList(12, 13, 14, 15, 12, 13, 15, 6);
             numbers.stream().distinct().limit(2).forEach(System.out::println);
+            
+## Use of Skip
+
+            List<Integer> numbers = Arrays.asList(10, 12, 13, 14, 10, 12, 15, 23);
+            numbers.stream().skip(3).forEach(System.out::println); //It will skip the first 3 elements
