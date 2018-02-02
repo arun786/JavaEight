@@ -36,6 +36,16 @@ public class StreamMap {
         List<Integer> numbers = Arrays.asList(1, 4, 5, 8, 9);
         List<Integer> doubleNumbers = numbers.stream().map(n -> n * 2).collect(Collectors.toList());
         System.out.println(doubleNumbers);
+
+        /**
+         * if we have two arrays [1,3,4]  and [2,5]
+         * we should get [(1,2),(1,5),(3,2),(3,5),(4,2),(4,5)]
+         */
+        List<Integer> numbers1 = Arrays.asList(1, 3, 4);
+        List<Integer> numbers2 = Arrays.asList(2, 5);
+
+        List<int[]> result = numbers1.stream().flatMap(n1 -> numbers2.stream().map(n2 -> new int[]{n1, n2})).collect(Collectors.toList());
+        result.forEach(d -> System.out.print(Arrays.toString(d) + " "));
     }
 
 
