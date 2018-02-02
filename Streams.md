@@ -133,3 +133,12 @@ Example of Stream
 
             List<Integer> numbers = Arrays.asList(10, 12, 13, 14, 10, 12, 15, 23);
             numbers.stream().skip(3).forEach(System.out::println); //It will skip the first 3 elements
+            
+     
+ ## Use of Map
+ 
+        List<String> words = Arrays.asList("one", "two", "three", "four");
+        words.stream().map(word -> word.length()).forEach(System.out::println);
+        
+        Map<String, Integer> mapOfWord = words.stream().collect(Collectors.toMap(d -> d, d -> d.length()));
+        System.out.println(mapOfWord);
