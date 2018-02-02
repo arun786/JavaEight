@@ -115,3 +115,9 @@ Example of Stream
         }
 
     }
+
+## Use Of Distinct
+
+            List<Integer> numbers = Arrays.asList(10,12,13,14,35,12,23,45);
+            List<Integer> distinctNumbers = numbers.stream().distinct().collect(Collectors.toList());
+            System.out.println(distinctNumbers);
