@@ -148,3 +148,13 @@ Example of Stream
         List<Dish> dishes = DishBuilder.dishBuilder();
         List<Integer> lengthOfDishName = dishes.stream().map(dish -> dish.getName()).map(String::length).collect(Collectors.toList());
         System.out.println(lengthOfDishName);
+        
+## Use of FlatMap
+
+        /**
+        * requirement is to find distinct words from a list of words
+        */
+        
+        List<String> word = Arrays.asList("apple", "banana");
+        List<String> uniqueCharacters = word.stream().map(w -> w.split("")).flatMap(Arrays::stream).distinct().collect(Collectors.toList());
+        System.out.println(uniqueCharacters);
