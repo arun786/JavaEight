@@ -2,7 +2,7 @@ package FunctionalInterface.SupplierInterface;
 
 import java.util.function.Supplier;
 
-public class md {
+public class SupplierInterface {
 
     public static void main(String[] args) {
         Supplier<String> s = () -> {
