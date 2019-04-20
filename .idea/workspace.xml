@@ -2,12 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e46ec1fa-4357-4371-a174-da2f3f8723e8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FunctionalInterface/SupplierInterface/SupplierInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FunctionalInterface/SupplierInterface/SupplierInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StaticMethodInsideInterface/StaticMethodInsideInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/DishBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/DishBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AnonymousInnerClass/AnonymousInnerClass$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AnonymousInnerClass/AnonymousInnerClass$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AnonymousInnerClass/AnonymousInnerClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AnonymousInnerClass/AnonymousInnerClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AnonymousInnerClass/AnonymousInnerClassWithLambdaIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AnonymousInnerClass/AnonymousInnerClassWithLambdaIn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AnonymousInnerClass/AnonymousInnerClassWithambda.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AnonymousInnerClass/AnonymousInnerClassWithambda.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DateAndTimeAPI/ToCheckLeapYear.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DateAndTimeAPI/ToCheckLeapYear.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaInAction/Streams/StreamMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaInAction/Streams/StreamMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaInAction/Streams/StreamsDistinct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaInAction/Streams/StreamsDistinct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaInAction/Streams/StreamsSkip.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaInAction/Streams/StreamsSkip.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaInAction/Streams/TruncateStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaInAction/Streams/TruncateStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MethodReference/MethodReference.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MethodReference/MethodReference.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MethodReference/MethodReferenceWithThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MethodReference/MethodReferenceWithThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/NewInStringClass/UseOfJoinInString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NewInStringClass/UseOfJoinInString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Streams/BasicOfStreams.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Streams/BasicOfStreams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Streams/StreamToArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Streams/StreamToArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Streams/UseOfForEachInStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Streams/UseOfForEachInStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Streams/BasicOfStreamAddToAMapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Streams/BasicOfStreamAddToAMapTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Streams/BasicStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Streams/BasicStreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Streams/ExplanationOfStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Streams/ExplanationOfStreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Streams/GetMinMaxUsingStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Streams/GetMinMaxUsingStreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Streams/SortingOfCollectionClassUsingStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Streams/SortingOfCollectionClassUsingStreamTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,14 +70,33 @@
       <usages-collector id="statistics.spring.boot.mvc.usages" />
       <usages-collector id="statistics.vcs.git.usages" />
     </session>
+    <session id="-80254961">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="398" />
+          <entry key="Markdown" value="71" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/NewInStringClass/UseOfJoinInString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="11" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="19" selection-end-column="11" />
+            <state relative-caret-position="306">
+              <caret line="19" column="11" selection-start-line="8" selection-start-column="7" selection-end-line="19" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,8 +108,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="238">
-                <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="25" selection-end-column="15" />
+              <first_editor relative-caret-position="519">
+                <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
               </first_editor>
               <second_editor />
             </state>
@@ -81,9 +117,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JavaInAction/Streams/BasicsOfStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Interview/LambdaLocalVariableFinal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" lean-forward="true" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Streams/ExplanationOfStreamTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="68">
               <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -113,7 +167,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/util/DishBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="119">
               <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -127,7 +181,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/StaticMethodInsideInterface/PropertiesOfStaticMethods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6">
+            <state relative-caret-position="85">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
@@ -161,6 +215,7 @@
         <option value="$PROJECT_DIR$/src/main/java/StaticMethodInsideInterface/StaticMethodInsideInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/DishBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/NewInStringClass/UseOfJoinInString.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Interview/LambdaLocalVariableFinal.java" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -193,6 +248,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,22 +296,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="FunctionalInterface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaEight" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaEight" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Streams" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaEight" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaEight" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="StaticMethodInsideInterface" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -271,14 +311,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538452120555" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555790697131" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -293,7 +331,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.LambdaLocalVariableFinal">
+    <configuration name="LambdaLocalVariableFinal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interview.LambdaLocalVariableFinal" />
+      <module name="Java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UseOfJoinInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NewInStringClass.UseOfJoinInString" />
       <module name="Java8" />
@@ -307,8 +358,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.UseOfJoinInString" />
+      <item itemvalue="Application.LambdaLocalVariableFinal" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LambdaLocalVariableFinal" />
         <item itemvalue="Application.UseOfJoinInString" />
       </list>
     </recent_temporary>
@@ -324,28 +380,25 @@
       <option name="presentableId" value="Default" />
       <updated>1538451194187</updated>
       <workItem from="1538451195476" duration="915000" />
+      <workItem from="1555789924714" duration="772000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="915000" />
+    <option name="totallyTimeSpent" value="1687000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2528" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.32925472" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32925472" />
@@ -353,15 +406,23 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32925472" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32925472" />
+      <window_info anchor="right" id="Codota" />
+      <window_info anchor="right" id="Connector for AWS Lambda" side_tool="true" />
+      <window_info anchor="right" id="SciView" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,24 +432,24 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/JavaInAction/Streams/StreamsSkip.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/StaticMethodInsideInterface/StaticMethodInsideInterface.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/NewInStringClass/UseOfJoinInString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        <state relative-caret-position="306">
+          <caret line="19" column="11" selection-start-line="8" selection-start-column="7" selection-end-line="19" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StaticMethodInsideInterface/PropertiesOfStaticMethods.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Streams/ExplanationOfStreamTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StaticMethodInsideInterface/StaticMethodInsideInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="68">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -408,7 +469,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/util/DishBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="119">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -418,31 +479,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Streams/ExplanationOfStreamTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/StaticMethodInsideInterface/PropertiesOfStaticMethods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NewInStringClass/UseOfJoinInString.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaInAction/Streams/StreamsSkip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaInAction/Streams/BasicsOfStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Interview/LambdaLocalVariableFinal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="11" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="19" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="19" lean-forward="true" selection-end-line="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="238">
-            <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="25" selection-end-column="15" />
+          <first_editor relative-caret-position="519">
+            <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
           </first_editor>
           <second_editor />
         </state>
