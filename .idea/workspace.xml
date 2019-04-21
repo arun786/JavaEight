@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e46ec1fa-4357-4371-a174-da2f3f8723e8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FunctionalInterfaceDocumentation/FunctionFunctionalInterface.md" beforeDir="false" afterPath="$PROJECT_DIR$/FunctionalInterfaceDocumentation/FunctionFunctionalInterface.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java8.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FunctionalInterface/FunctionInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FunctionalInterface/FunctionInter/FunctionInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FunctionalInterface/FunctionInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Interview/CloningAHashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Interview/CloningAHashMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,15 +58,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="10" />
-          <entry key="Markdown" value="3" />
+          <entry key="JAVA" value="12" />
+          <entry key="Markdown" value="4" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3429" />
-          <entry key="Markdown" value="312" />
+          <entry key="JAVA" value="4322" />
+          <entry key="Markdown" value="355" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
@@ -95,13 +90,51 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FunctionalInterfaceDocumentation/FunctionFunctionalInterface.md">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="519">
-                <caret line="149" lean-forward="true" selection-start-line="149" selection-end-line="149" />
+                <caret line="184" lean-forward="true" selection-start-line="184" selection-end-line="184" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FunctionalInterfaceDocumentation/FunctionFunctionalInterface.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="458">
+                <caret line="132" column="48" selection-start-line="132" selection-start-column="48" selection-end-line="132" selection-end-column="48" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/CustomPredicate/Predicate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-end-line="18" />
+              <folding>
+                <element signature="e#152#153#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#360#361#0" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/CustomPredicate/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" lean-forward="true" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -144,6 +177,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -161,7 +195,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Interview/LambdaLocalVariableFinal.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Interview/CloningAHashMap.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/Interview/NotNullCheck.java" />
         <option value="$PROJECT_DIR$/src/main/java/Interview/DeepCopyToShallowCopy.java" />
         <option value="$PROJECT_DIR$/src/main/java/FunctionalInterface/FunctionInterface/ExampleOfFunction.java" />
@@ -169,6 +202,9 @@
         <option value="$PROJECT_DIR$/src/main/java/FunctionalInterface/FunctionInter/HighOrderFunction.java" />
         <option value="$PROJECT_DIR$/src/main/java/FunctionalInterface/FunctionInter/BiFunctionAndBiNaryOperator.java" />
         <option value="$PROJECT_DIR$/FunctionalInterfaceDocumentation/FunctionFunctionalInterface.md" />
+        <option value="$PROJECT_DIR$/src/main/java/CustomPredicate/Predicate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CustomPredicate/App.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -253,26 +289,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="FunctionalInterface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaEight" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaEight" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="FunctionalInterface" type="462c0819:PsiDirectoryNode" />
-              <item name="FunctionInter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaEight" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaEight" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="FunctionalInterface" type="462c0819:PsiDirectoryNode" />
-              <item name="FunctionInter" type="462c0819:PsiDirectoryNode" />
-              <item name="ExampleOfFunction.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="CustomPredicate" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaEight" type="b2602c69:ProjectViewProjectNode" />
@@ -308,7 +325,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555832398905" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555834449486" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -323,13 +340,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BiFunctionAndBiNaryOperator">
-    <configuration name="BiFunctionAndBiNaryOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FunctionalInterface.FunctionInter.BiFunctionAndBiNaryOperator" />
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CustomPredicate.App" />
       <module name="Java8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FunctionalInterface.FunctionInter.*" />
+          <option name="PATTERN" value="CustomPredicate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -337,12 +354,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CloningAHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interview.CloningAHashMap" />
+    <configuration name="BiFunctionAndBiNaryOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FunctionalInterface.FunctionInter.BiFunctionAndBiNaryOperator" />
       <module name="Java8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Interview.*" />
+          <option name="PATTERN" value="FunctionalInterface.FunctionInter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -390,19 +407,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CloningAHashMap" />
       <item itemvalue="Application.NotNullCheck" />
       <item itemvalue="Application.ExampleOfFunction" />
       <item itemvalue="Application.HighOrderFunction" />
       <item itemvalue="Application.BiFunctionAndBiNaryOperator" />
+      <item itemvalue="Application.App" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.BiFunctionAndBiNaryOperator" />
         <item itemvalue="Application.HighOrderFunction" />
         <item itemvalue="Application.ExampleOfFunction" />
         <item itemvalue="Application.NotNullCheck" />
-        <item itemvalue="Application.CloningAHashMap" />
       </list>
     </recent_temporary>
   </component>
@@ -417,18 +434,18 @@
       <option name="presentableId" value="Default" />
       <updated>1538451194187</updated>
       <workItem from="1538451195476" duration="915000" />
-      <workItem from="1555789924714" duration="9712000" />
+      <workItem from="1555789924714" duration="11761000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10627000" />
+    <option name="totallyTimeSpent" value="12676000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2528" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2528" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -438,7 +455,7 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32925472" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32925472" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -585,16 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1224">
-            <caret line="72" column="34" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FunctionalInterfaceDocumentation/FunctionalInterface.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -646,8 +653,40 @@
     <entry file="file://$PROJECT_DIR$/FunctionalInterfaceDocumentation/FunctionFunctionalInterface.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
+          <first_editor relative-caret-position="458">
+            <caret line="132" column="48" selection-start-line="132" selection-start-column="48" selection-end-line="132" selection-end-column="48" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CustomPredicate/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-end-line="18" />
+          <folding>
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CustomPredicate/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
           <first_editor relative-caret-position="519">
-            <caret line="149" lean-forward="true" selection-start-line="149" selection-end-line="149" />
+            <caret line="184" lean-forward="true" selection-start-line="184" selection-end-line="184" />
           </first_editor>
           <second_editor />
         </state>
