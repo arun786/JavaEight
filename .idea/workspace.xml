@@ -3,10 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e46ec1fa-4357-4371-a174-da2f3f8723e8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FunctionalInterfaceDocumentation/FunctionFunctionalInterface.md" beforeDir="false" afterPath="$PROJECT_DIR$/FunctionalInterfaceDocumentation/FunctionFunctionalInterface.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Java8.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java8.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Interview/LambdaLocalVariableFinal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Interview/LambdaLocalVariableFinal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FunctionalInterface/FunctionInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FunctionalInterface/FunctionInter/FunctionInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FunctionalInterface/FunctionInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Interview/CloningAHashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Interview/CloningAHashMap.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,14 +63,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="10" />
+          <entry key="Markdown" value="3" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1739" />
-          <entry key="Markdown" value="107" />
+          <entry key="JAVA" value="3429" />
+          <entry key="Markdown" value="312" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
@@ -76,12 +79,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FunctionalInterface/FunctionInter/ExampleOfFunction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+              <folding>
+                <element signature="e#595#596#0" expanded="true" />
+                <element signature="e#623#624#0" expanded="true" />
+                <element signature="e#810#811#0" expanded="true" />
+                <element signature="e#838#839#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+        <entry file="file://$PROJECT_DIR$/FunctionalInterfaceDocumentation/FunctionFunctionalInterface.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1386">
-                <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+              <first_editor relative-caret-position="519">
+                <caret line="149" lean-forward="true" selection-start-line="149" selection-end-line="149" />
               </first_editor>
               <second_editor />
             </state>
@@ -89,10 +107,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Interview/DeepCopyToShallowCopy.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FunctionalInterface/FunctionInter/BiFunctionAndBiNaryOperator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="20" column="56" selection-start-line="16" selection-start-column="6" selection-end-line="20" selection-end-column="56" />
+            <state relative-caret-position="391">
+              <caret line="23" column="1" lean-forward="true" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,81 +119,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Interview/CloningAHashMap.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FunctionalInterface/FunctionInter/FunctionInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="70" lean-forward="true" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FunctionalInterface/FunctionInter/HighOrderFunction.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="419">
-              <caret line="59" column="43" selection-end-line="65" />
+              <caret line="38" column="49" lean-forward="true" selection-end-line="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JavaInAction/Streams/BasicsOfStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Interview/LambdaLocalVariableFinal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JavaInAction/Streams/StreamMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/util/DishBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#131#132#0" expanded="true" />
-                <element signature="e#158#159#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/StaticMethodInsideInterface/PropertiesOfStaticMethods.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JavaInAction/Streams/StreamsSkip.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -200,10 +159,16 @@
         <option value="$PROJECT_DIR$/src/main/java/util/DishBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/NewInStringClass/UseOfJoinInString.java" />
         <option value="$PROJECT_DIR$/src/main/java/Interview/LambdaLocalVariableFinal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Interview/DeepCopyToShallowCopy.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Interview/CloningAHashMap.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/Interview/NotNullCheck.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Interview/DeepCopyToShallowCopy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FunctionalInterface/FunctionInterface/ExampleOfFunction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FunctionalInterface/FunctionInter/ExampleOfFunction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FunctionalInterface/FunctionInter/HighOrderFunction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FunctionalInterface/FunctionInter/BiFunctionAndBiNaryOperator.java" />
+        <option value="$PROJECT_DIR$/FunctionalInterfaceDocumentation/FunctionFunctionalInterface.md" />
       </list>
     </option>
   </component>
@@ -251,6 +216,11 @@
             <path>
               <item name="JavaEight" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaEight" type="462c0819:PsiDirectoryNode" />
+              <item name="FunctionalInterfaceDocumentation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaEight" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaEight" type="462c0819:PsiDirectoryNode" />
               <item name="JavaInAction" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -283,7 +253,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Interview" type="462c0819:PsiDirectoryNode" />
+              <item name="FunctionalInterface" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaEight" type="b2602c69:ProjectViewProjectNode" />
@@ -291,8 +261,26 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Interview" type="462c0819:PsiDirectoryNode" />
-              <item name="DeepCopyToShallowCopy.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="FunctionalInterface" type="462c0819:PsiDirectoryNode" />
+              <item name="FunctionInter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaEight" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaEight" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="FunctionalInterface" type="462c0819:PsiDirectoryNode" />
+              <item name="FunctionInter" type="462c0819:PsiDirectoryNode" />
+              <item name="ExampleOfFunction.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="JavaEight" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaEight" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Lambda" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaEight" type="b2602c69:ProjectViewProjectNode" />
@@ -320,7 +308,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555812152999" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555832398905" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -335,7 +323,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CloningAHashMap">
+  <component name="RunManager" selected="Application.BiFunctionAndBiNaryOperator">
+    <configuration name="BiFunctionAndBiNaryOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FunctionalInterface.FunctionInter.BiFunctionAndBiNaryOperator" />
+      <module name="Java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FunctionalInterface.FunctionInter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CloningAHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Interview.CloningAHashMap" />
       <module name="Java8" />
@@ -349,12 +350,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeepCopyToShallowCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interview.DeepCopyToShallowCopy" />
+    <configuration name="ExampleOfFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FunctionalInterface.FunctionInter.ExampleOfFunction" />
       <module name="Java8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Interview.*" />
+          <option name="PATTERN" value="FunctionalInterface.FunctionInter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -362,12 +363,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaLocalVariableFinal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interview.LambdaLocalVariableFinal" />
+    <configuration name="HighOrderFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FunctionalInterface.FunctionInter.HighOrderFunction" />
       <module name="Java8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Interview.*" />
+          <option name="PATTERN" value="FunctionalInterface.FunctionInter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -375,12 +376,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseOfJoinInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NewInStringClass.UseOfJoinInString" />
+    <configuration name="NotNullCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interview.NotNullCheck" />
       <module name="Java8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="NewInStringClass.*" />
+          <option name="PATTERN" value="Interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -389,17 +390,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.UseOfJoinInString" />
-      <item itemvalue="Application.LambdaLocalVariableFinal" />
-      <item itemvalue="Application.DeepCopyToShallowCopy" />
       <item itemvalue="Application.CloningAHashMap" />
+      <item itemvalue="Application.NotNullCheck" />
+      <item itemvalue="Application.ExampleOfFunction" />
+      <item itemvalue="Application.HighOrderFunction" />
+      <item itemvalue="Application.BiFunctionAndBiNaryOperator" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BiFunctionAndBiNaryOperator" />
+        <item itemvalue="Application.HighOrderFunction" />
+        <item itemvalue="Application.ExampleOfFunction" />
+        <item itemvalue="Application.NotNullCheck" />
         <item itemvalue="Application.CloningAHashMap" />
-        <item itemvalue="Application.DeepCopyToShallowCopy" />
-        <item itemvalue="Application.LambdaLocalVariableFinal" />
-        <item itemvalue="Application.UseOfJoinInString" />
       </list>
     </recent_temporary>
   </component>
@@ -414,18 +417,18 @@
       <option name="presentableId" value="Default" />
       <updated>1538451194187</updated>
       <workItem from="1538451195476" duration="915000" />
-      <workItem from="1555789924714" duration="5107000" />
+      <workItem from="1555789924714" duration="9712000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6022000" />
+    <option name="totallyTimeSpent" value="10627000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2528" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2528" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -434,8 +437,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32925472" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32925472" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -448,6 +451,7 @@
       <window_info anchor="right" id="Codota" />
       <window_info anchor="right" id="Connector for AWS Lambda" side_tool="true" />
       <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -541,16 +545,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Interview/DeepCopyToShallowCopy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="20" column="56" selection-start-line="16" selection-start-column="6" selection-end-line="20" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="334">
@@ -568,11 +562,92 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Interview/DeepCopyToShallowCopy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Interview/NotNullCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="e#101#102#0" expanded="true" />
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1386">
-            <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+          <first_editor relative-caret-position="1224">
+            <caret line="72" column="34" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunctionalInterfaceDocumentation/FunctionalInterface.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-255" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FunctionalInterface/FunctionInter/HighOrderFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="38" column="49" lean-forward="true" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FunctionalInterface/FunctionInter/FunctionInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="70" lean-forward="true" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FunctionalInterface/FunctionInter/ExampleOfFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <folding>
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FunctionalInterface/FunctionInter/BiFunctionAndBiNaryOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="1" lean-forward="true" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunctionalInterfaceDocumentation/FunctionFunctionalInterface.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="519">
+            <caret line="149" lean-forward="true" selection-start-line="149" selection-end-line="149" />
           </first_editor>
           <second_editor />
         </state>

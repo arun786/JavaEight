@@ -1,9 +1,9 @@
-package FunctionalInterface;
+package FunctionalInterface.FunctionInter;
 
 import java.util.function.Function;
 
 /**
- * FunctionInterface is a functional Interface which takes one parameter as input
+ * FunctionInter is a functional Interface which takes one parameter as input
  * of any type and can return any type
  */
 public class FunctionInterface {
